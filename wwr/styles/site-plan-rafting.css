@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Nanum+Myeongjo&display=swap');
+
+h4 .headingFont{
+    font-family: "Nanum";
+}
+
+p{ 
+    font-family: "Dosis";
+    padding: 25px;
+}
+
+body {
+    font-family: var(--paragraf-font);
+    max-width: 960px;
+    padding: 20px;
+}
+
+:root {
+    --primary-color: #141429;
+    --secondary-color: #77C9E4;
+    --accent1-color: #FFCF70;
+    --accent2-color: #119DA4;
+  
+    --heading-font: 'Nanum', serif;
+    --paragraph-font: 'Dosis', serif;
+  
+    --nav-background-color: #141429;
+    --nav-link-color: #77C9E4;
+    --nav-hover-link-color: #141429;
+    --nav-hover-background-color: #FFCF70;
+  }
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+  }
+  
+  header{
+    padding: 20px;
+    background-color: var(--accent1-color);
+  }
+
+  nav {
+    background-color: var(--nav-background-color);
+    font-size: 1.2rem;
+    display: flex;
+  }
+  
+  nav a {
+    display: block;
+    color: var(--nav-link-color);
+    text-decoration: none;
+    padding: 1rem;
+  }
+  
+  nav a:link, nav a:visited {
+    color: var(--nav-link-color);
+  }
+  
+  nav a:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+  }
+  
