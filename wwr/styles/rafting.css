@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Nanum+Myeongjo&display=swap');
+
+:root {
+    --primary-color: #119DA4;
+    --secondary-color: #141429;
+    --accent1-color: #FFCF70;
+    --accent2-color: #77C9E4;
+  
+    --heading-font: 'Nanum', serif;
+    --paragraph-font: 'Dosis', serif;
+  
+    --nav-background-color: #141429;
+    --nav-link-color: #77C9E4;
+    --nav-hover-link-color: #141429;
+    --nav-hover-background-color: #FFCF70;
+}
+
+
+body {
+    font-family: var(--paragraf-font);
+    max-width: 960px;
+    padding: 20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+
+
+a {
+    text-decoration: none;
+}
+
+
+/*Class Selectors*/
+
+.hero {
+    position: relative;
+    max-height: 500px;
+}
+
+.heroImg{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.siteH1 {
+    position: absolute;
+    top: 30px;
+    width: 100%;
+    background: var(--nav-background-color);
+    text-shadow: #000 1px 0px 5px ;
+    text-align: center;
+}
+
+.articleAboutUs {
+    position: absolute;
+    top: 400px;    
+    width: auto;
+    font-size: 18px;
+    color: var(--nav-link-color);
+    background-color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+.imgEmployee {
+    float: right;
+    width: 300px;
+}
+
+.sectionHistory {
+    margin-top: 200px;
+}
+
+.adventureImg{
+    display: block;
+}
+
+.mediaImg {
+    max-width: 30px;
+}
