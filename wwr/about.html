@@ -9,13 +9,15 @@
     <link rel="stylesheet" href="styles/rafting.css">
 </head>
 <body>
-    <header>
-        <img src="images/dryoarlogo3.png" alt="Dry Oar Logo">
+    <header class="grid">
+        <img class="logoImg" src="images/dryoarlogo3.png" alt="Dry Oar Logo">
         <nav>
-            <a href="index.html">Home</a>
-            <a href="about.html">About Us</a>
-            <a href="trips.html">Trips</a>
-            <a href="contact.html">Contact Us</a>
+            <ul class="flex navigation">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="trips.html">Trips</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
         </nav>
     </header>
     <main>
@@ -24,6 +26,7 @@
             <h1 class="siteH1">Dry Oar Rafting Co.</h1>
             <article class="articleAboutUs">
                 <img class="imgEmployee" src="images/happy_image.webp" alt="Happy client Image" width="200">
+                <h4>Lorem ipsum dolor sit amet consectetur.</h4>
                 <p>
                     Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
                     Modi ex, id dignissimos eos nesciunt similique? Molestiae 
@@ -32,25 +35,51 @@
                 </p>
             </article>
         </div>      
-        <section class="sectionHistory">
-            <h2>History</h2>
-            <p>
+        <section class="grid sectionHistory">
+            <p class="historyColumn">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                 Rem optio facilis, officiis esse odio qui blanditiis, 
                 velit voluptatibus beatae maiores corrupti eligendi 
                 rerum repellendus. Atque cumque ducimus facere perspiciatis distinctio?
             </p>
+            <div class="historyColumn">
+                <h2>History</h2>
+                <img class="historyImg" src="images/history_image.jpg" alt="Immage of group of people">
+            </div>
+            <p class="historyColumn">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Quo omnis voluptatem porro sunt excepturi facilis pariatur 
+                dolor molestias animi dolorum et nobis iste, natus officiis, 
+                voluptate ad quos maiores vel!
+            </p>
         </section>
-        <section>
+        <section class="sectionAdventure">
             <h2>Adventure Awaits You!</h2>
-            <img class="adventureImg" src="images/rafting_img1.webp" alt="White water rafting image">
-            <img class="adventureImg" src="images/rafting_img2.webp" alt="White water rafting image">
-            <img class="adventureImg" src="images/rafting_img3.webp" alt="White water rafting image">
-            <img class="adventureImg" src="images/rafting_img4.webp" alt="White water rafting image">
-            <img class="adventureImg" src="images/rafting_img5.webp" alt="White water rafting image">
+            <div class="col12">
+                <figure>
+                    <img class="adventureImg" src="images/rafting_img1.webp" alt="Little Colorado River Image">
+                    <figcaption>Little Colorado River</figcaption>
+                </figure>
+                <figure>
+                    <img class="adventureImg" src="images/rafting_img2.webp" alt="White water rafting image">
+                    <figcaption>Group of people water rafting</figcaption>
+                </figure>
+                <figure>
+                    <img class="adventureImg" src="images/rafting_img3.webp" alt="White water rafting image">
+                    <figcaption>White Water Rafting</figcaption>
+                </figure>
+                <figure>
+                    <img class="adventureImg" src="images/rafting_img4.webp" alt="White water rafting image">
+                    <figcaption>People water rafting</figcaption>
+                </figure>
+                <figure>
+                    <img class="adventureImg" src="images/rafting_img5.webp" alt="White water rafting image">
+                    <figcaption>White Water Rafting</figcaption>
+                </figure>               
+            </div>
         </section>
     </main>
-    <footer>
+    <footer class="footerStyle">
         <p>©️2024 🌿 Dry Oar Rafting Co. 🌿 Erandy Ramirez</p>
         <nav class="sociallinks">
             <a href="https://www.facebook.com">
