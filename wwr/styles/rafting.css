@@ -196,7 +196,7 @@ footer nav{
     border-radius: 12px;
 }
 
-.containerEmployees h2 {
+.containerEmployees h1 {
     justify-self: center;
 }
 
@@ -238,7 +238,7 @@ footer nav{
     border-radius: 12px;
 }
 
-.infoContainer h3{
+.infoContainer h2{
     justify-self: center;
 }
 
@@ -348,4 +348,10 @@ footer nav{
 
 .divButton {
     justify-self: center;
+}
+
+.mapConatainer iframe {
+    border: 0;
+    width: 500px;
+    height: 350px;
 }
