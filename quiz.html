@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Erandy Ramirez | HTML and CSS Quiz</title>
+    <meta name="description" content="HTML and CSS quiz">
+    <meta name="author" content="Erandy Ramirez">
+    <link rel="stylesheet" href="styles/quiz.css">
+</head>
+<body>
+    <header>
+        <h1>WDD 130 | Erandy Ramirez | HTML and CSS Quiz</h1>
+    </header>
+    <main>
+        <form>
+            <fieldset>
+                <legend>HTML & CSS Quiz</legend>
+                <div class="form-item column2">
+                    <label for="q1">What does HTML stand for?</label>
+                    <input id="q1" type="text" name="q1">
+                </div>
+                <div class="form-item column2">
+                    <label for="q2">Write down 2 different absolute length units and two relative length units:</label>
+                    <textarea name="q2" id="q2" rows="4" placeholder="Lorem Ipsum"></textarea>
+                </div>
+                <div class="form-item column2">
+                    <label for="q3">In CSS Box Model is a box that wraps around every element. 
+                        From the inside out what is the next box after the content.
+                    </label>
+                    <select name="q3" id="q3">
+                        <option value="" selected disabled>Choose One...</option>
+                        <option value="margin">Margin</option>
+                        <option value="padding">Padding</option>
+                        <option value="width">Width</option>
+                        <option value="border">Border</option>
+                        <option value="height">Height</option>
+                    </select>
+                </div>       
+                <div class="form-item column3">
+                    <label for="q4">How many columuns the header will take given this declaration? </label>
+                    <img src="images/quiz_example.png" class="quizImg" alt="example of css declaration">
+                    <input type="number" name="q4" id="q4">
+                </div>      
+            </fieldset>
+            <div class="divButton">
+                <button type="submit">Submit Poll</button>
+            </div>
+        </form>
+    </main>
+    <footer>
+        <p>©️2024 | HTML and CSS Quiz Activity | Erandy Ramirez</p>
+    </footer>
+</body>
+</html>
